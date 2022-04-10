@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
-import Cards from './components/cards';
-
+import Cards from './components/cards/cards';
 function App() {
   
   const [values, setValues] = useState();
